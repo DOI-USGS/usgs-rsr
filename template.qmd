@@ -1,0 +1,24 @@
+---
+format:
+  usgs-rsr-pdf: default
+scientist: John Wesley Powell
+pronouns: (he, his)
+title: Director
+seriesAndGrade: GS-0408-13
+centerName: USGS Headquarters
+dutyStation: Reston, VA
+entrance: March 1, 1881
+conversion: March 10, 1881
+promotion: March 30, 1885
+cycle: Fall 2025
+keyword1: |
+  Botany;
+keyword2: |
+  Geology;
+keyword3: |
+  Mapping;
+keyword4: |
+  Whitewater rafting and adventure trips;
+keyword5: |
+  Exploring the Western United States
+---

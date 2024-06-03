@@ -1,0 +1,9 @@
+title: usgs-rsr
+author: Richard Erickson
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf:
+      template: template.tex
+
