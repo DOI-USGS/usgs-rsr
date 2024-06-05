@@ -212,11 +212,6 @@ $endif$
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-$if(numbersections)$
-\setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
-$else$
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-$endif$
 $if(beamer)$
 $else$
 $if(block-headings)$
@@ -294,9 +289,6 @@ $if(csl-refs)$
 $endif$
 
 
-\titleformat{\section} {\centering\large\bfseries}{\makebox[1.0em][l]{\bfseries\thesection}}{1em}{}
-\titleformat{\subsection} {\large\itshape}{\makebox[1.0em][l]{\thesubsection}}{1em}{}%
-
 \addtolength{\leftskip}{\widthof{\normalfont\bfseries\makebox[2.0em]{}}}% Indent text
 
 \titlespacing\section{0pt}{6pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
@@ -309,6 +301,9 @@ $endif$
 \renewcommand\thesubsection{\Alph{subsection}.}
 
 \renewcommand\thesubsubsection{\Alph{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section} {\centering\large\bfseries}{\makebox[1.0em][l]{\bfseries\thesection}}{1em}{}
+\titleformat{\subsection} {\large\itshape}{\makebox[1.0em][l]{\thesubsection}}{1em}{}%
 
 
 \setlist[itemize]{topsep=0pt,itemsep=1ex,partopsep=1ex,parsep=1ex}
@@ -481,7 +476,6 @@ $endfor$
 
 \section*{Supporting Information}
 
-\subsection{Current and Recent Projects}
 
 \input{supporting_information_projects.tex}
 
