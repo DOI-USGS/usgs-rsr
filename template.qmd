@@ -2,7 +2,7 @@
 format:
   usgs-rsr-pdf: default
 scientist: John Wesley Powell
-pronouns: (he, his)
+pronouns:
 title: Director
 seriesAndGrade: GS-0408-13
 centerName: USGS Headquarters
