@@ -8,7 +8,21 @@ To install (assuming you have Quarto), run the following code in your favorite t
 quarto use template DOI-USGS/usgs-rsr
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+You will be asked `? Do you trust the authors of this template (Y/n) ›` type `Y` if you trust this repo.
+
+Next, you will be asked `? Create a subdirectory for template? (Y/n) ›` type `Y` to create a new folder. Pick a name like `powell-rsr` if you're John Wesley Powell.
+
+Then, you are asked
+
+```bash
+The template requires the following changes to extensions:
+usgs-rsr   [Install]   1.0.0 (format)
+? Would you like to continue (Y/n) ›
+```
+Type `Y` if you want to continue.
+
+Then, a folder will be created (in our example, `powell-rsr`).
+This contains a `powell-rsr.qmd` file for our example.
 
 ## Using
 
@@ -25,5 +39,5 @@ After installing, here the steps to start writing:
 
 ## Example
 
-Here is the source code for a minimal sample document: [qurto_rsr.qmd](qurto_rsr.qmd).
+Here is the source code for a minimal sample document: [powell-rsr.qmd](powell-rsr.qmd).
 
